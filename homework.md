@@ -17,22 +17,24 @@
 
         Ghép 3 chuỗi này thành 1 câu hoàn chỉnh rồi in ra.
 
-3.  **Viết hàm: In lời chào**  
-     Viết hàm `sayHello()` in ra `"Xin chào!"`.
+3.  **Viết hàm: In lời chào**
 
-        > Gợi ý: chỉ cần `console.log()`.
+        Viết hàm `sayHello()` in ra `"Xin chào!"`.
 
-        > Ví dụ:
-        > const sayHello = () => {
-        > ...
-        > }
+        Gợi ý: chỉ cần `console.log()`.
 
-        > sayHello(); // in ra Xin chào
+         Ví dụ:
+         const sayHello = () => {
+         ...
+         }
 
-4.  **Viết hàm: Chào người dùng theo tên**  
-    Viết hàm nhận vào tham số là tên `greet(name)` in ra `"Xin chào, <name>!"`.
+         sayHello(); // in ra Xin chào
 
-    > Gợi ý: dùng `console.log` và nối chuỗi (`+`).
+4.  **Viết hàm: Chào người dùng theo tên**
+
+        Viết hàm nhận vào tham số là tên `greet(name)` in ra `"Xin chào, <name>!"`.
+
+        Gợi ý: dùng `console.log` và nối chuỗi (`+`).
 
         Ví dụ:
         const greet = (name) => {
@@ -42,7 +44,8 @@
         greet("Khánh"); // in ra Xin chào, Khánh!
 
 5.  **Viết hàm: In ra số**
-    Viết hàm nhận vào tham số là số n `inra(n)` in ra `"Số n là: <n>!"`.
+
+        Viết hàm nhận vào tham số là số n `inra(n)` in ra `"Số n là: <n>!"`.
 
         Ví dụ:
         const inra = (n) => {
@@ -77,29 +80,33 @@
 
         In ra độ dài mảng .
 
-8.  **Viết hàm có điều kiện: Kiểm tra số dương hay âm**  
-    Viết hàm `checkNumber(n)`:
+8.  **Viết hàm có điều kiện: Kiểm tra số dương hay âm**
 
-    - Nếu `n > 0` → in `"Số dương"`.
-    - Nếu `n < 0` → in `"Số âm"`.
-    - Nếu `n === 0` → in `"Số 0"`.
+        Viết hàm `checkNumber(n)`:
 
-9.  **Viết hàm có điều kiện: Kiểm tra tuổi hợp lệ**  
-    Viết hàm `canDrive(age)`:
+        - Nếu `n > 0` → in `"Số dương"`.
+        - Nếu `n < 0` → in `"Số âm"`.
+        - Nếu `n === 0` → in `"Số 0"`.
 
-    - Nếu `age >= 18` → `"Được lái xe"`.
-    - Ngược lại → `"Chưa đủ tuổi"`.
+9.  **Viết hàm có điều kiện: Kiểm tra tuổi hợp lệ**
 
-10. **Viết hàm có điều kiện: Kiểm tra chia hết cho 5**  
-    Viết hàm `checkDivisibleBy5(n)`:
+        Viết hàm `canDrive(age)`:
 
-    - Nếu chia hết cho 5 → `"Chia hết cho 5"`.
-    - Ngược lại → `"Không chia hết cho 5"`.
+        - Nếu `age >= 18` → `"Được lái xe"`.
+        - Ngược lại → `"Chưa đủ tuổi"`.
 
-11. **Viết hàm có điều kiện: Phân loại điểm học sinh**  
-    Viết hàm `grade(score)`:
+10. **Viết hàm có điều kiện: Kiểm tra chia hết cho 5**
 
-    - `score > 8`: `"Giỏi"`
-    - `score > 6.5`: `"Khá"`
-    - `score > 5`: `"Trung bình"`
-    - Ngược lại: `"Yếu"`
+        Viết hàm `checkDivisibleBy5(n)`:
+
+        - Nếu chia hết cho 5 → `"Chia hết cho 5"`.
+        - Ngược lại → `"Không chia hết cho 5"`.
+
+11. **Viết hàm có điều kiện: Phân loại điểm học sinh**
+
+        Viết hàm `grade(score)`:
+
+        - `score > 8`: `"Giỏi"`
+        - `score > 6.5`: `"Khá"`
+        - `score > 5`: `"Trung bình"`
+        - Ngược lại: `"Yếu"`
