@@ -1,104 +1,105 @@
-1. **Cộng chuỗi: Giới thiệu bản thân**
+1.  **Cộng chuỗi: Giới thiệu bản thân**
 
-Khai báo 3 biến: name, age, favoriteColor.
-In ra màn hình dòng:
+        Khai báo 3 biến: name, age, favoriteColor.
+        In ra màn hình dòng:
 
-Xin chào, tôi là [name], năm nay [age] tuổi và tôi thích màu [favoriteColor].
+        Xin chào, tôi là [name], năm nay [age] tuổi và tôi thích màu [favoriteColor].
 
-Gợi ý: dùng + để nối chuỗi
+        Gợi ý: dùng + để nối chuỗi
 
-2. **Cộng chuỗi: Ghép chuỗi câu**
+2.  **Cộng chuỗi: Ghép chuỗi câu**
 
-Tạo 3 biến:
+        Tạo 3 biến:
 
-const first = "Tôi đang học";
-const middle = "JavaScript";
-const end = "và tôi thấy rất vui!";
+        const first = "Tôi đang học";
+        const middle = "JavaScript";
+        const end = "và tôi thấy rất vui!";
 
-Ghép 3 chuỗi này thành 1 câu hoàn chỉnh rồi in ra.
+        Ghép 3 chuỗi này thành 1 câu hoàn chỉnh rồi in ra.
 
-3. **Viết hàm: In lời chào**  
-   Viết hàm `sayHello()` in ra `"Xin chào!"`.
+3.  **Viết hàm: In lời chào**  
+     Viết hàm `sayHello()` in ra `"Xin chào!"`.
 
-   > Gợi ý: chỉ cần `console.log()`.
+        > Gợi ý: chỉ cần `console.log()`.
 
-Ví dụ:
-const sayHello = () => {
-...
-}
+        > Ví dụ:
+        > const sayHello = () => {
+        > ...
+        > }
 
-sayHello(); // in ra Xin chào
+        > sayHello(); // in ra Xin chào
 
-4. **Viết hàm: Chào người dùng theo tên**  
-   Viết hàm nhận vào tham số là tên `greet(name)` in ra `"Xin chào, <name>!"`.
-   > Gợi ý: dùng `console.log` và nối chuỗi (`+`).
+4.  **Viết hàm: Chào người dùng theo tên**  
+    Viết hàm nhận vào tham số là tên `greet(name)` in ra `"Xin chào, <name>!"`.
 
-Ví dụ:
-const greet = (name) => {
-...
-}
+    > Gợi ý: dùng `console.log` và nối chuỗi (`+`).
 
-greet("Khánh"); // in ra Xin chào, Khánh!
+        Ví dụ:
+        const greet = (name) => {
+        ...
+        }
 
-5. **Viết hàm: In ra số**
-   Viết hàm nhận vào tham số là số n `inra(n)` in ra `"Số n là: <n>!"`.
+        greet("Khánh"); // in ra Xin chào, Khánh!
 
-Ví dụ:
-const inra = (n) => {
-...
-}
+5.  **Viết hàm: In ra số**
+    Viết hàm nhận vào tham số là số n `inra(n)` in ra `"Số n là: <n>!"`.
 
-inra(5); // in ra Số n là: 5!
+        Ví dụ:
+        const inra = (n) => {
+        ...
+        }
 
-5. **Viết hàm: Tính tổng và hiệu của hai số**
+        inra(5); // in ra Số n là: 5!
 
-Viết 2 hàm:
+6.  **Viết hàm: Tính tổng và hiệu của hai số**
 
-const tinhTong = (a, b) => {
-// code xử lý
-}
-const tinhHieu = (a, b) => {
-// code xử lý
-}
+        Viết 2 hàm:
 
-Sau đó gọi thử:
+        const tinhTong = (a, b) => {
+        // code xử lý
+        }
+        const tinhHieu = (a, b) => {
+        // code xử lý
+        }
 
-console.log(tinhTong(10, 5)); // 15
-console.log(tinhHieu(10, 5)); // 5
+        Sau đó gọi thử:
 
-6. **Làm việc với mảng**
+        console.log(tinhTong(10, 5)); // 15
+        console.log(tinhHieu(10, 5)); // 5
 
-Tạo mảng const fruits = ["Táo", "Cam", "Chuối"];
+7.  **Làm việc với mảng**
 
-In ra phần tử đầu tiên.
+        Tạo mảng const fruits = ["Táo", "Cam", "Chuối"];
 
-In ra phần tử cuối cùng.
+        In ra phần tử đầu tiên.
 
-In ra độ dài mảng .
+        In ra phần tử cuối cùng.
 
-7. **Viết hàm có điều kiện: Kiểm tra số dương hay âm**  
-   Viết hàm `checkNumber(n)`:
+        In ra độ dài mảng .
 
-   - Nếu `n > 0` → in `"Số dương"`.
-   - Nếu `n < 0` → in `"Số âm"`.
-   - Nếu `n === 0` → in `"Số 0"`.
+8.  **Viết hàm có điều kiện: Kiểm tra số dương hay âm**  
+    Viết hàm `checkNumber(n)`:
 
-8. **Viết hàm có điều kiện: Kiểm tra tuổi hợp lệ**  
-   Viết hàm `canDrive(age)`:
+    - Nếu `n > 0` → in `"Số dương"`.
+    - Nếu `n < 0` → in `"Số âm"`.
+    - Nếu `n === 0` → in `"Số 0"`.
 
-   - Nếu `age >= 18` → `"Được lái xe"`.
-   - Ngược lại → `"Chưa đủ tuổi"`.
+9.  **Viết hàm có điều kiện: Kiểm tra tuổi hợp lệ**  
+    Viết hàm `canDrive(age)`:
 
-9. **Viết hàm có điều kiện: Kiểm tra chia hết cho 5**  
-   Viết hàm `checkDivisibleBy5(n)`:
+    - Nếu `age >= 18` → `"Được lái xe"`.
+    - Ngược lại → `"Chưa đủ tuổi"`.
 
-   - Nếu chia hết cho 5 → `"Chia hết cho 5"`.
-   - Ngược lại → `"Không chia hết cho 5"`.
+10. **Viết hàm có điều kiện: Kiểm tra chia hết cho 5**  
+    Viết hàm `checkDivisibleBy5(n)`:
 
-10. **Viết hàm có điều kiện: Phân loại điểm học sinh**  
+    - Nếu chia hết cho 5 → `"Chia hết cho 5"`.
+    - Ngược lại → `"Không chia hết cho 5"`.
+
+11. **Viết hàm có điều kiện: Phân loại điểm học sinh**  
     Viết hàm `grade(score)`:
 
-- `score > 8`: `"Giỏi"`
-- `score > 6.5`: `"Khá"`
-- `score > 5`: `"Trung bình"`
-- Ngược lại: `"Yếu"`
+    - `score > 8`: `"Giỏi"`
+    - `score > 6.5`: `"Khá"`
+    - `score > 5`: `"Trung bình"`
+    - Ngược lại: `"Yếu"`
